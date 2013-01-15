@@ -1,101 +1,175 @@
-[2013-01-15 22:34:06,573][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: initializing ...
-[2013-01-15 22:34:06,578][INFO ][plugins                  ] [Fasaud] loaded [], sites []
-[2013-01-15 22:34:09,099][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: initialized
-[2013-01-15 22:34:09,102][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: starting ...
-[2013-01-15 22:34:09,208][INFO ][transport                ] [Fasaud] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
-[2013-01-15 22:34:12,245][INFO ][cluster.service          ] [Fasaud] new_master [Fasaud][x8BaTmENQqSMAmGmBNQ9Dw][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
-[2013-01-15 22:34:12,309][INFO ][discovery                ] [Fasaud] elasticsearch/x8BaTmENQqSMAmGmBNQ9Dw
-[2013-01-15 22:34:12,381][INFO ][http                     ] [Fasaud] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
-[2013-01-15 22:34:12,382][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: started
-[2013-01-15 22:34:12,466][INFO ][gateway                  ] [Fasaud] recovered [0] indices into cluster_state
-[2013-01-15 22:34:13,142][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: stopping ...
-[2013-01-15 22:34:13,185][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: stopped
-[2013-01-15 22:34:13,185][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: closing ...
-[2013-01-15 22:34:13,191][INFO ][node                     ] [Fasaud] {0.20.2}[14476]: closed
-[2013-01-15 22:35:02,230][INFO ][node                     ] [Arc] {0.20.2}[14623]: initializing ...
-[2013-01-15 22:35:02,235][INFO ][plugins                  ] [Arc] loaded [], sites []
-[2013-01-15 22:35:04,824][INFO ][node                     ] [Arc] {0.20.2}[14623]: initialized
-[2013-01-15 22:35:04,824][INFO ][node                     ] [Arc] {0.20.2}[14623]: starting ...
-[2013-01-15 22:35:04,940][INFO ][transport                ] [Arc] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
-[2013-01-15 22:35:07,978][INFO ][cluster.service          ] [Arc] new_master [Arc][SSj9YhFKSreQ-6zer0J4CA][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
-[2013-01-15 22:35:08,014][INFO ][discovery                ] [Arc] elasticsearch/SSj9YhFKSreQ-6zer0J4CA
-[2013-01-15 22:35:08,040][INFO ][http                     ] [Arc] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
-[2013-01-15 22:35:08,041][INFO ][node                     ] [Arc] {0.20.2}[14623]: started
-[2013-01-15 22:35:08,120][INFO ][gateway                  ] [Arc] recovered [0] indices into cluster_state
-[2013-01-15 22:35:20,228][WARN ][transport.netty          ] [Arc] exception caught on transport layer [[id: 0xe974ba28, /127.0.0.1:35078 => /127.0.0.1:9300]], closing connection
-java.io.StreamCorruptedException: invalid internal transport message format
-	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:27)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
-	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:787)
-	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
-	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
-	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:313)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
-	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+[2013-01-16 00:08:18,589][INFO ][node                     ] [Harald Jaekelsson] {0.20.2}[17914]: stopping ...
+[2013-01-16 00:08:18,648][INFO ][node                     ] [Harald Jaekelsson] {0.20.2}[17914]: stopped
+[2013-01-16 00:08:18,648][INFO ][node                     ] [Harald Jaekelsson] {0.20.2}[17914]: closing ...
+[2013-01-16 00:08:18,656][INFO ][node                     ] [Harald Jaekelsson] {0.20.2}[17914]: closed
+[2013-01-16 00:08:19,792][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: initializing ...
+[2013-01-16 00:08:19,798][INFO ][plugins                  ] [Gunthar of Rigel‎] loaded [], sites []
+[2013-01-16 00:08:22,606][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: initialized
+[2013-01-16 00:08:22,606][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: starting ...
+[2013-01-16 00:08:22,682][INFO ][transport                ] [Gunthar of Rigel‎] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
+[2013-01-16 00:08:25,714][INFO ][cluster.service          ] [Gunthar of Rigel‎] new_master [Gunthar of Rigel‎][cVjCMlENSYiu2HeGHaLLmA][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-16 00:08:25,754][INFO ][discovery                ] [Gunthar of Rigel‎] elasticsearch/cVjCMlENSYiu2HeGHaLLmA
+[2013-01-16 00:08:25,831][INFO ][http                     ] [Gunthar of Rigel‎] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
+[2013-01-16 00:08:25,831][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: started
+[2013-01-16 00:08:26,595][INFO ][gateway                  ] [Gunthar of Rigel‎] recovered [1] indices into cluster_state
+[2013-01-16 00:09:15,263][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: stopping ...
+[2013-01-16 00:09:15,309][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: stopped
+[2013-01-16 00:09:15,309][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: closing ...
+[2013-01-16 00:09:15,319][INFO ][node                     ] [Gunthar of Rigel‎] {0.20.2}[19440]: closed
+[2013-01-16 00:09:16,332][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: initializing ...
+[2013-01-16 00:09:16,336][INFO ][plugins                  ] [Devil Dinosaur] loaded [], sites []
+[2013-01-16 00:09:19,442][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: initialized
+[2013-01-16 00:09:19,443][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: starting ...
+[2013-01-16 00:09:19,523][INFO ][transport                ] [Devil Dinosaur] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
+[2013-01-16 00:09:22,552][INFO ][cluster.service          ] [Devil Dinosaur] new_master [Devil Dinosaur][MCLVZPJYS5Wh2FlGPNg6Bw][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-16 00:09:22,608][INFO ][discovery                ] [Devil Dinosaur] elasticsearch/MCLVZPJYS5Wh2FlGPNg6Bw
+[2013-01-16 00:09:22,634][INFO ][http                     ] [Devil Dinosaur] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
+[2013-01-16 00:09:22,634][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: started
+[2013-01-16 00:09:23,622][INFO ][gateway                  ] [Devil Dinosaur] recovered [1] indices into cluster_state
+[2013-01-16 00:15:07,008][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: stopping ...
+[2013-01-16 00:15:07,085][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: stopped
+[2013-01-16 00:15:07,085][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: closing ...
+[2013-01-16 00:15:07,098][INFO ][node                     ] [Devil Dinosaur] {0.20.2}[19599]: closed
+[2013-01-16 00:15:08,833][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: initializing ...
+[2013-01-16 00:15:08,840][INFO ][plugins                  ] [Doctor Druid] loaded [], sites []
+[2013-01-16 00:15:11,736][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: initialized
+[2013-01-16 00:15:11,737][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: starting ...
+[2013-01-16 00:15:11,854][INFO ][transport                ] [Doctor Druid] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
+[2013-01-16 00:15:14,910][INFO ][cluster.service          ] [Doctor Druid] new_master [Doctor Druid][DZ2dNozqT9Kbcpnc0bxL1g][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-16 00:15:14,967][INFO ][discovery                ] [Doctor Druid] elasticsearch/DZ2dNozqT9Kbcpnc0bxL1g
+[2013-01-16 00:15:15,052][INFO ][http                     ] [Doctor Druid] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
+[2013-01-16 00:15:15,052][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: started
+[2013-01-16 00:15:15,882][INFO ][gateway                  ] [Doctor Druid] recovered [1] indices into cluster_state
+[2013-01-16 00:15:24,080][DEBUG][action.search.type       ] [Doctor Druid] [real_estates][1], node[DZ2dNozqT9Kbcpnc0bxL1g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7031b27a]
+org.elasticsearch.search.SearchParseException: [real_estates][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{},"filter":{"range":{"price":{"from":"3000","to":"3500"}}},"size":10,"version":true}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:566)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:481)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:236)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:205)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:192)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:178)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
 	at java.lang.Thread.run(Thread.java:722)
-[2013-01-15 22:35:20,231][WARN ][transport.netty          ] [Arc] exception caught on transport layer [[id: 0xe974ba28, /127.0.0.1:35078 :> /127.0.0.1:9300]], closing connection
-java.io.StreamCorruptedException: invalid internal transport message format
-	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:27)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:482)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
-	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:787)
-	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
-	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:336)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:570)
-	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
-	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
-	at org.elasticsearch.transport.netty.NettyTransport.exceptionCaught(NettyTransport.java:500)
-	at org.elasticsearch.transport.netty.MessageChannelHandler.exceptionCaught(MessageChannelHandler.java:227)
-	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:787)
-	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
-	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:787)
-	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
-	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
-	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:654)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:562)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:787)
-	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560)
-	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:555)
-	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
-	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:313)
-	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
-	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
-	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [real_estates] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:175)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:246)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:554)
+	... 11 more
+[2013-01-16 00:15:24,084][DEBUG][action.search.type       ] [Doctor Druid] [real_estates][0], node[DZ2dNozqT9Kbcpnc0bxL1g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7031b27a]
+org.elasticsearch.search.SearchParseException: [real_estates][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{},"filter":{"range":{"price":{"from":"3000","to":"3500"}}},"size":10,"version":true}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:566)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:481)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:236)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:205)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:192)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:178)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
 	at java.lang.Thread.run(Thread.java:722)
-[2013-01-15 23:14:14,381][INFO ][cluster.metadata         ] [Arc] [real_estates] creating index, cause [auto(index api)], shards [5]/[1], mappings []
-[2013-01-15 23:14:15,316][INFO ][cluster.metadata         ] [Arc] [real_estates] update_mapping [real_estate] (dynamic)
-[2013-01-15 23:19:17,782][INFO ][cluster.metadata         ] [Arc] [real_estates] update_mapping [real_estate] (dynamic)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [real_estates] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:175)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:246)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:554)
+	... 11 more
+[2013-01-16 00:15:24,084][DEBUG][action.search.type       ] [Doctor Druid] [real_estates][4], node[DZ2dNozqT9Kbcpnc0bxL1g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7031b27a]
+org.elasticsearch.search.SearchParseException: [real_estates][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{},"filter":{"range":{"price":{"from":"3000","to":"3500"}}},"size":10,"version":true}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:566)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:481)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:236)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:205)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:192)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:178)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [real_estates] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:175)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:246)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:554)
+	... 11 more
+[2013-01-16 00:15:24,081][DEBUG][action.search.type       ] [Doctor Druid] [real_estates][2], node[DZ2dNozqT9Kbcpnc0bxL1g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7031b27a]
+org.elasticsearch.search.SearchParseException: [real_estates][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{},"filter":{"range":{"price":{"from":"3000","to":"3500"}}},"size":10,"version":true}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:566)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:481)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:236)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:205)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:192)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:178)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [real_estates] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:175)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:246)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:554)
+	... 11 more
+[2013-01-16 00:15:24,080][DEBUG][action.search.type       ] [Doctor Druid] [real_estates][3], node[DZ2dNozqT9Kbcpnc0bxL1g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7031b27a]
+org.elasticsearch.search.SearchParseException: [real_estates][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{},"filter":{"range":{"price":{"from":"3000","to":"3500"}}},"size":10,"version":true}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:566)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:481)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:236)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:205)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:192)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:178)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [real_estates] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:175)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:246)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:554)
+	... 11 more
+[2013-01-16 00:16:32,460][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: stopping ...
+[2013-01-16 00:16:32,512][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: stopped
+[2013-01-16 00:16:32,513][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: closing ...
+[2013-01-16 00:16:32,518][INFO ][node                     ] [Doctor Druid] {0.20.2}[19963]: closed
+[2013-01-16 00:16:34,099][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: initializing ...
+[2013-01-16 00:16:34,104][INFO ][plugins                  ] [Vindicator] loaded [], sites []
+[2013-01-16 00:16:36,852][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: initialized
+[2013-01-16 00:16:36,852][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: starting ...
+[2013-01-16 00:16:36,957][INFO ][transport                ] [Vindicator] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
+[2013-01-16 00:16:40,000][INFO ][cluster.service          ] [Vindicator] new_master [Vindicator][uM-KHHzRSYiA21GH30hvmw][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-16 00:16:40,051][INFO ][discovery                ] [Vindicator] elasticsearch/uM-KHHzRSYiA21GH30hvmw
+[2013-01-16 00:16:40,066][INFO ][http                     ] [Vindicator] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
+[2013-01-16 00:16:40,066][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: started
+[2013-01-16 00:16:40,838][INFO ][gateway                  ] [Vindicator] recovered [1] indices into cluster_state
+[2013-01-16 00:27:26,023][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: stopping ...
+[2013-01-16 00:27:26,095][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: stopped
+[2013-01-16 00:27:26,095][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: closing ...
+[2013-01-16 00:27:26,112][INFO ][node                     ] [Vindicator] {0.20.2}[20119]: closed
+[2013-01-16 00:27:27,303][INFO ][node                     ] [Sputnik] {0.20.2}[20625]: initializing ...
+[2013-01-16 00:27:27,307][INFO ][plugins                  ] [Sputnik] loaded [], sites []
+[2013-01-16 00:27:30,202][INFO ][node                     ] [Sputnik] {0.20.2}[20625]: initialized
+[2013-01-16 00:27:30,203][INFO ][node                     ] [Sputnik] {0.20.2}[20625]: starting ...
+[2013-01-16 00:27:30,318][INFO ][transport                ] [Sputnik] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.30:9300]}
+[2013-01-16 00:27:33,360][INFO ][cluster.service          ] [Sputnik] new_master [Sputnik][p95eoi-BQvC-nuJEgmPv5g][inet[/192.168.2.30:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-16 00:27:33,410][INFO ][discovery                ] [Sputnik] elasticsearch/p95eoi-BQvC-nuJEgmPv5g
+[2013-01-16 00:27:33,432][INFO ][http                     ] [Sputnik] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.30:9200]}
+[2013-01-16 00:27:33,432][INFO ][node                     ] [Sputnik] {0.20.2}[20625]: started
+[2013-01-16 00:27:34,227][INFO ][gateway                  ] [Sputnik] recovered [1] indices into cluster_state
