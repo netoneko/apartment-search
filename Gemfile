@@ -13,4 +13,3 @@ gem 'coffee-script'
 gem 'rack-coffee'
 
 gem 'tire'
-gem 'foreman'
