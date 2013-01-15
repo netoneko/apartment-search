@@ -6,32 +6,43 @@ html lang="en"
     meta name="description" content=""
     meta name="author" content=""
 
-    link href="/bootstrap/css/bootstrap.css" rel="stylesheet"
+    link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"
     css:
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
-    link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"
+    link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"
+
+    link href="/visualsearch/build-min/visualsearch.css" rel="stylesheet"
+    link href="/visualsearch/build-min/visualsearch-datauri.css" rel="stylesheet"
 
   body
-
-    div class="navbar navbar-inverse navbar-fixed-top"
-      div class="navbar-inner"
-        div class="container"
-          a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"
-            span class="icon-bar"
-            span class="icon-bar"
-            span class="icon-bar"
-          a class="brand" href="#" Project name
-          div class="nav-collapse collapse"
-            ul class="nav"
-              li class="active"
-                a href="#"Home
+    .navbar.navbar-inverse.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse"
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand href="#" Apartment Search
+          .nav-collapse.collapse
+            ul.nav
+              li.active
+                a href="#" Home
               li
                 a href="#about" About
               li
-                a href="#contact" Contacti
+                a href="#contact" Contact
 
-    div class="container"
+    .container
       h1 Bootstrap starter template
-      pUse this document as a way to quick start any new project.br All you get is this message and a barebones HTML document.
+      p Use this document as a way to quick start any new project.<br/> All you get is this message and a barebone HTML document.
+
+      #search_box_container
+      #search_query
+
+      script src="/bootstrap/js/bootstrap,min.js"
+      script src="/visualsearch/build-min/dependencies.js"
+      script src="/visualsearch/build-min/visualsearch.js"
+      script src="/visualsearch/build-min/visualsearch_templates.js"
+      script src="/visualsearch/example.js"
