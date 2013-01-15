@@ -1,0 +1,23 @@
+-
+  title: Nice apartment in North Tel Aviv
+  description: Blah blah
+  author: Shlomo
+  phone: 05300000
+  city: Tel Aviv
+  rooms: 2.5
+  price: 4000
+  address: Shlomo street, 12
+  lat: 123
+  long: 321
+
+-
+  title: Not so nice apartment in South Tel Aviv
+  description: Blah blah nah
+  author: Aisek
+  phone: 05399999
+  city: Tel Aviv
+  rooms: 1.5
+  price: 3000
+  address: Aisek street, 12
+  lat: 231
+  long: 132
