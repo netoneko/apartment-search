@@ -1,7 +1,7 @@
 -
   title: Nice apartment in North Tel Aviv
-  description: Blah blah
-  author: Shlomo
+  description: Exceptionally nice apartment, if you know what I mean. No dogs allowed, only kittens.
+  owner: Shlomo
   phone: 05300000
   city: Tel Aviv
   rooms: 2.5
@@ -12,8 +12,8 @@
 
 -
   title: Not so nice apartment in South Tel Aviv
-  description: Blah blah nah
-  author: Aisek
+  description: I don't allow kitties and dogs, haha.
+  owner: Aisek
   phone: 05399999
   city: Tel Aviv
   rooms: 1.5
@@ -25,7 +25,7 @@
 -
   title: Tears of joy!
   description: Blah blah nah near old City
-  author: Moshe
+  owner: Moshe
   phone: 05399999
   city: Jerusalem
   rooms: 3.5
