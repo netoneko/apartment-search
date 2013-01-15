@@ -96,3 +96,6 @@ java.io.StreamCorruptedException: invalid internal transport message format
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
 	at java.lang.Thread.run(Thread.java:722)
+[2013-01-15 23:14:14,381][INFO ][cluster.metadata         ] [Arc] [real_estates] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-01-15 23:14:15,316][INFO ][cluster.metadata         ] [Arc] [real_estates] update_mapping [real_estate] (dynamic)
+[2013-01-15 23:19:17,782][INFO ][cluster.metadata         ] [Arc] [real_estates] update_mapping [real_estate] (dynamic)
