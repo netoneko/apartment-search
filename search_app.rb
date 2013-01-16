@@ -4,7 +4,7 @@ Bundler.require
 require 'real_estate'
 
 class SearchApp < Sinatra::Base
-  set :public_folder, File.dirname(__FILE__) + '/static'
+  set :public_folder, "#{File.dirname(__FILE__)}/static"
 
   get '/' do
     slim :index, layout: false
@@ -38,6 +38,4 @@ class SearchApp < Sinatra::Base
 
     MultiJson.dump results
   end
-
-  run! if app_file == $0
 end
