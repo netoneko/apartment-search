@@ -2,34 +2,34 @@
   title: Nice apartment in North Tel Aviv
   description: Exceptionally nice apartment, if you know what I mean. No dogs allowed, only kittens.
   owner: Shlomo
-  phone: 05300000
+  phone: "05377777"
   city: Tel Aviv
   rooms: 2.5
   price: 4000
-  address: Shlomo street, 12
-  lat: 123
-  long: 321
+  address: Brener street, 11
+  lat: 32.06933
+  long: 34.77203
 
 -
   title: Not so nice apartment in South Tel Aviv
   description: I don't allow kitties and dogs, haha.
   owner: Aisek
-  phone: 05399999
+  phone: "0539999"
   city: Tel Aviv
   rooms: 1.5
   price: 3000
-  address: Aisek street, 12
-  lat: 231
-  long: 132
+  address: Shlomo HaMelech, 7
+  lat: 32.07703
+  long: 34.77664
 
 -
   title: Tears of joy!
   description: Blah blah nah near old City
   owner: Moshe
-  phone: 05399999
+  phone: "05322222"
   city: Jerusalem
   rooms: 3.5
   price: 6000
-  address: Moshe street, 12
-  lat: 2331
-  long: 1232
+  address: Rivka, 17
+  lat: 31.7554
+  long: 35.2168

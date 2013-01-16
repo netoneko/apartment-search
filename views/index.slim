@@ -10,10 +10,16 @@ html lang="en"
       #apartment_search_results {
         margin-top: 20px;
       }
+      #map {
+        height: 400px;
+      }
     link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"
 
     link href="/visualsearch/build-min/visualsearch.css" rel="stylesheet"
     link href="/visualsearch/build-min/visualsearch-datauri.css" rel="stylesheet"
+
+    link href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" rel="stylesheet"
+
 
   body
     a href="https://github.com/netoneko/apartment-search"
@@ -21,16 +27,21 @@ html lang="en"
 
     .container
       h1.page-header Looking for apartment?
-      p Just select a city, number of rooms, and price range. Look for the best match. Good luck!
+      .row
+        .span8
+          p Just select a city, number of rooms, and price range. Look for the best match. Good luck!
 
-      #apartment_search_box_container
-      #apartment_search_query
+          #apartment_search_box_container
+          #apartment_search_query
 
-      .row-fluid
-        ul.thumbnails#apartment_search_results
+          .row#apartment_search_results
+        .span4(style="border: 1px red;")
+          #map
 
       script src="/visualsearch/build-min/dependencies.js"
       script src="/visualsearch/build-min/visualsearch.js"
       script src="/visualsearch/build-min/visualsearch_templates.js"
+      script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"
+
       script src="/search_app.js"
       /script src="/bootstrap/js/bootstrap.min.js"
