@@ -15,22 +15,22 @@ class SearchApp < Sinatra::Base
 
     input = json.inject({}) do |hash, item|
       key, value = item.first
-      hash[key.to_sym] = value
+      hash[key] = value
       hash
     end
 
     results = RealEstate.search do |pf|
       pf.query do |q|
-        if city = input[:city]
+        if city = input["city"]
           q.string "city:#{city}" if city
         end
       end
 
-      if rooms = input[:rooms]
+      if rooms = input["rooms"]
         pf.filter :term, rooms: rooms
       end
 
-      range = {from: input[:from], to: input[:to]}
+      range = {from: input["min price"], to: input["max price"]}
       if range.values.find(&:present?)
         pf.filter :range, price: range
       end

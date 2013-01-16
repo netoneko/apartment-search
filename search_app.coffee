@@ -38,7 +38,7 @@ $(document).ready ->
 
   window.visualSearch = VS.init
     container  : $('#apartment_search_box_container'),
-    query      : 'city: "Tel Aviv" "min price": 4000 "max price": 6000', #rooms: 1.5
+    query      : 'city: "Tel Aviv" "min price": 3000 "max price": 6000', #rooms: 1.5
     showFacets : true,
     unquotable : ['text'],
     callbacks  :

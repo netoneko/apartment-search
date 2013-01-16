@@ -3,6 +3,6 @@ class RealEstate
   include Tire::Model::Search
 
   %w(title description owner phone city rooms price address lat long).each do |name|
-    property name.to_sym
+    property name
   end
 end
