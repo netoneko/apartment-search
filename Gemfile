@@ -15,3 +15,8 @@ gem 'coffee-script'
 gem 'rack-coffee'
 
 gem 'tire'
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+end
