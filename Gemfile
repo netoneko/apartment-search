@@ -15,6 +15,7 @@ gem 'coffee-script'
 gem 'rack-coffee'
 
 gem 'tire'
+gem 'puma'
 
 group :test do
   gem 'rspec'

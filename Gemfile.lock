@@ -19,6 +19,8 @@ GEM
     i18n (0.6.1)
     mime-types (1.19)
     multi_json (1.5.0)
+    puma (1.6.3-java)
+      rack (~> 1.2)
     rack (1.4.4)
     rack-coffee (1.0.0)
       coffee-script
@@ -62,6 +64,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
+  puma
   rack-coffee
   rack-test
   rspec
