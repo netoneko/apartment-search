@@ -1,8 +1,5 @@
 task :environment do
-  require "bundler/setup"
-  Bundler.require
-
-  require 'real_estate'
+  require 'init'
 end
 
 namespace :db do
