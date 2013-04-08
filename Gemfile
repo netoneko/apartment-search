@@ -9,6 +9,7 @@ if RUBY_PLATFORM == 'java'
   gem 'therubyrhino'
 else
   gem 'therubyracer'
+  gem 'foreman'
 end
 
 gem 'coffee-script'
@@ -22,6 +23,3 @@ group :test do
   gem 'rack-test'
 end
 
-group :development do
-  gem 'foreman'
-end
