@@ -1,5 +1,5 @@
 task :environment do
-  require './init'
+  require_relative 'init'
 end
 
 namespace :db do
