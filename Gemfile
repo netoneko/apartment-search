@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3', engine: 'jruby', engine_version: '1.7.2' # Heroku deployment
+#ruby '1.9.3', engine: 'jruby', engine_version: '1.7.2' # Heroku deployment
 
 gem 'sinatra'
 gem 'slim'
@@ -20,4 +20,8 @@ gem 'puma'
 group :test do
   gem 'rspec'
   gem 'rack-test'
+end
+
+group :development do
+  gem 'foreman'
 end
